@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+.flexcontainer {
+    padding: 4% 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+header {
+    height: 50rem;
+    padding: 3% 5%;
+    background-image: url("../images/macaroons_header_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h2 {
+    font-size: 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1cbbb4;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.25), 3px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    /* width: 100%;
+    height: 7.25rem;
+    border: 1px solid black; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+.navbar li a {
+    padding: 0 10px;
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    border-top: 3px solid transparent;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    border-top-color: #f3ce00;
+}
+
+.navbar a:active {
+    border-top-color: #a61d3d;
+}
+
+#logo {
+    min-width: 80%;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+button {
+    margin: 20px;
+    align-items: center;
+    font-family: "Paytone One", sans-serif;
+    color: #ffffff;
+    background: #f3ce00;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 100%;
+    border: 3px solid white;
+    text-transform: uppercase;
+    cursor: pointer;
+    vertical-align: middle;
+    z-index: 1;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+.cta_button:hover {
+    background: #1cbbb4;
+    transition: 0.5s;
+}
+
+.secondary_button {
+    margin-left: 0;
+}
+
+.secondary_button:hover {
+    background: #ffffff;
+    color: #f3ce00;
+    transition: 0.5s;
+
+}
+
+/* ABOUT SECTION */
+
+#about img {
+    width: 600px;
+    border: 3px solid white;
+    
+}
+
+#about h1 {
+    font-size: 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    line-height: 1em;
+}
+
+#about.flexcontainer {
+    justify-content: center;
+    flex-direction: row;
+    padding: 5%;
+    background-color: #f3ce00;
+}
+
+.about_text {
+    margin-left: 5%;
+    max-width: 600px;
+}
+
+.about_text p {
+    color: #3b3b3b;
+    margin-bottom: 1rem;
+}
+
+
+/* MENU SECTION */
+
+#menu .section-title {
+    width: 80%;
+    text-align: center;
+    line-height: 2em;
+    color: #1cbbb4;
+    font-size: 2em;
+}
+
+.menu-item-parent {
+    margin-top: 20px;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.menu-item-child {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    line-height: 1.3em;
+}
+
+.menu-item-child h4 {
+    color:#3b3b3b;
+    font-size: 2em;
+    padding: 15px 0;
+    border-bottom: 3px solid transparent;
+}
+
+.menu-item-child h4:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom-color:#f3ce00;
+}
+
+.menu-img {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #f3ce00;
+}
+
+/* BAKERS SECTION */
+
+#bakers.flexcontainer {
+    justify-content: center;
+    flex-direction: row;
+    padding: 5%;
+    background-color: #1cbbb4;
+}
+
+#bakers .section-title {
+    width: 80%;
+    text-align: center;
+    line-height: 2em;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.baker-img {
+    width: 250px;
+    border: 3px solid #ffffff;
+}
+.baker-container-parent {
+    margin-top: 20px;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.baker-card {
+    width: 300px;
+    padding: 15px;
+    line-height: 2em;
+    background-color:#f3ce00;
+    text-align: center;
+    margin: 15px 15px; 
+}
+
+
+/* FOOTER */
+footer {
+    background-color:#3b3b3b;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
